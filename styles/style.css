@@ -1,29 +1,99 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     max-width: 1440px;
-    font-family: 'Open Sans', sans-serif;
-}
-.nav-container{
+    font-family: "Open Sans", sans-serif;
+  }
+  .btn-style {
+    color: #ffffff;
+    background-color: #e02c6d;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .nav-container {
     display: flex;
     justify-content: space-between;
     width: 80%;
     margin: 0 auto;
     align-items: center;
     padding: 50px;
-    
-}
-.nav-header{
+  }
+  .nav-header {
     padding: 20px;
-    color:#3A3A3A;
-}
-.nav-items{
+    color: #3a3a3a;
+  }
+  .nav-items {
     display: flex;
     gap: 34px;
     padding: 20px;
-}
-.nav-items a{
+  }
+  .nav-items a {
     text-decoration: none;
-    color:#3A3A3A;
+    color: #3a3a3a;
+  }
+  /* banner starts */
+  .banner-container {
+    /* border: 5px solid black; */
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+  }
+  .banner-content h1 {
+    margin-top: 10px;
+    color: #3a3a3a;
+    font-size: 52px;
+    font-weight: 700;
+  }
+  .banner-content p {
+    color: #3a3a3a;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .sponsor-container {
+    /* border: 5px solid black; */
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+  }
+  .sponsor-container img {
+    width: 55.051px;
+    height: 31.065px;
+  }
+  .main-container{
+    /* border: 5px solid black; */
+    width: 80%;
+    margin: 0 auto;
+  }
+  .main-title{
+    /* border: 3px solid violet; */
+  }
+  .main-products{
+    /* border: 3px solid gold; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  .products-img{
+    /* border: 3px solid blue; */
+    padding: 30px;
+}
+.product-description{
+    /* border: 3px solid springgreen; */
+    padding: 30px;
+}
+.main-container .main-title{
+    color: #3A3A3A;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
 }
